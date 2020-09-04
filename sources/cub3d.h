@@ -34,7 +34,15 @@ typedef struct      s_pars
     int             c_two;
     int             c_three;
     t_map           *map;
+    int             errorint;
 }                   t_pars;
 
+typedef struct      s_doublearg
+{
+    double          x_arg;
+    double          y_arg;
+}                   t_doublearg;
+
+t_pars              g_model;
 
 #endif
